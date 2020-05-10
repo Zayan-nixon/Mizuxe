@@ -1,0 +1,105 @@
+
+/*--------basic Part---*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin-top: 90px;
+}
+.btn{
+    border-radius: 0 !important;
+}
+ .form-control-lg{
+    border-radius: 0 !important;
+}
+
+/*--------Nav Part---*/
+.navbar {
+    box-shadow:2px 2px 5px #3292a6;
+    background: #fff;
+    opacity: 0.8;
+}
+.nav-item {
+    font-size: 21px;
+    padding-right: 20px;
+}
+.nav-item:last-child {
+    padding-right: 0;
+}
+.navbar .nav-item .nav-link {
+    color: #252525;
+}
+.navbar .nav-item .nav-link:hover{
+    color:  #3292a6;
+}
+
+
+
+
+/*--------Home Part---*/
+
+#home {
+    background: linear-gradient(rgba(50, 146, 156, 0.6),rgba(50, 146, 156, 0.6)), url('../img/mountains.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: center;
+}
+
+/*--------subscribe Part---*/
+#subscribe {
+    padding: 80px 0 69px 0;
+}
+
+
+
+/*-------About Part------*/
+
+
+#about.bg-light {
+    background-color: #d4d6d9bf !important;
+}
+#about .card{
+    cursor: pointer;
+}
+
+
+/*-------Athors Part------*/
+#authors img{
+    margin-top: -50px;
+}
+#authors .card:hover{
+    background-color: #17a2b8 !important;
+    color: #fff !important;
+}
+#authors .card:hover i{
+    color: #fff !important;
+}
+#authors i{
+    font-size: 25px;
+}
+
+/*-------Athors Part------*/
+
+#contact.bg-light {
+    background-color: #cacdd0de !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------Responsive Part---*/
+@media (max-width:575px){
+    #home h1{
+    font-size: 51px;
+    }
+}
